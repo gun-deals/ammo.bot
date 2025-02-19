@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammo.bot - Coming Soon</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .animate-pulse {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center p-4">
+    <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-5xl md:text-6xl font-bold mb-8">
+            <span class="text-blue-500">ammo</span><span class="text-gray-300">.bot</span>
+        </h1>
+        
+        <div class="space-y-6 mb-12">
+            <div class="flex items-center justify-center space-x-3">
+                <div class="h-3 w-3 bg-blue-500 rounded-full animate-pulse"></div>
+                <p class="text-2xl font-semibold text-gray-300">Coming Soon</p>
+            </div>
+            
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+                We're working to create the most useful ammo site on the planet.
+            </p>
+        </div>
+
+        <div class="bg-gray-800 p-8 rounded-lg shadow-xl max-w-lg mx-auto">
+            <a href="mailto:contact@ammo.bot" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-200">
+                contact@ammo.bot
+            </a>
+        </div>
+    </div>
+
+    <footer class="mt-16 text-gray-500 text-sm">
+        © 2025 ammo.bot
+    </footer>
+</body>
+</html>
